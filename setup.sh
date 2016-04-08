@@ -51,3 +51,5 @@ rm ./LICENSE
 rm ./setup.sh
 
 echo "Patching done!"
+
+open ./"$PRODUCT_NAME".xcodeproj
