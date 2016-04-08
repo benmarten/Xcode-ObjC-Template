@@ -1,9 +1,9 @@
 //
 //  ViewController.m
-//  PRODUCT_NAME
+//  XYZPRODUCTNAME
 //
-//  Created by AUTHOR_NAME on AUTHOR_DATE.
-//  Copyright © COPY_YEAR ORG_NAME. All rights reserved.
+//  Created by {{AUTHOR_NAME}} on {{AUTHOR_DATE}}.
+//  Copyright © {{COPY_DATE}} XYZORGNAME. All rights reserved.
 //
 
 #import "ViewController.h"

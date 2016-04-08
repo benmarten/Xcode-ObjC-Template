@@ -10,7 +10,7 @@ This is based on a Xcode project created by Xcode 7.3 (7D175)
 
 ## Usage
 
-Open Xcode Project: `open PRODUCT_NAME.xcodeproj/`
+Open Xcode Project: `open TestApp.xcodeproj/`
 
 ## Contributing
 
