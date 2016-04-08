@@ -48,5 +48,6 @@ mv XYZPRODUCTNAME/ "$PRODUCT_NAME"
 
 rm ./README.md
 rm ./LICENSE
+rm ./setup.sh
 
 echo "Patching done!"
