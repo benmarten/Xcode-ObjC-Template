@@ -1,9 +1,9 @@
 //
 //  AppDelegate.m
-//  XYZPRODUCTNAME
+//  YB7PNZA3
 //
-//  Created by {{AUTHOR_NAME}} on {{AUTHOR_DATE}}.
-//  Copyright © {{COPY_DATE}} XYZORGNAME. All rights reserved.
+//  Created by Ben on 4/8/16.
+//  Copyright © 2016 YB7ONZA3. All rights reserved.
 //
 
 #import "AppDelegate.h"
