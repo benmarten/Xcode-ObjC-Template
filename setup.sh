@@ -46,4 +46,7 @@ find . -type f -not -path '*/\.*' -not -path './setup.sh' -exec sed -i '' "s/{{C
 mv XYZPRODUCTNAME.xcodeproj/ "$PRODUCT_NAME".xcodeproj
 mv XYZPRODUCTNAME/ "$PRODUCT_NAME"
 
+rm ./README.md
+rm ./LICENSE
+
 echo "Patching done!"
