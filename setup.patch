@@ -1,0 +1,265 @@
+diff -ruN PRODUCT_NAME/LICENSE PRODUCT_NAME.tmp/LICENSE
+--- PRODUCT_NAME/LICENSE	2016-04-07 19:30:28.000000000 -0700
++++ PRODUCT_NAME.tmp/LICENSE	2016-04-07 19:34:44.000000000 -0700
+@@ -1,6 +1,6 @@
+ The MIT License (MIT)
+
+-Copyright (c) COPY_YEAR ORG_NAME
++Copyright (c) $_COPY_YEAR $_ORG_NAME
+
+ Permission is hereby granted, free of charge, to any person obtaining a copy
+ of this software and associated documentation files (the "Software"), to deal
+diff -ruN PRODUCT_NAME/PRODUCT_NAME/AppDelegate.h PRODUCT_NAME.tmp/PRODUCT_NAME/AppDelegate.h
+--- PRODUCT_NAME/PRODUCT_NAME/AppDelegate.h	2016-04-07 19:31:14.000000000 -0700
++++ PRODUCT_NAME.tmp/PRODUCT_NAME/AppDelegate.h	2016-04-07 19:34:42.000000000 -0700
+@@ -1,9 +1,9 @@
+ //
+ //  AppDelegate.h
+-//  PRODUCT_NAME
++//  $_PRODUCT_NAME
+ //
+-//  Created by AUTHOR_NAME on AUTHOR_DATE.
+-//  Copyright © COPY_YEAR ORG_NAME. All rights reserved.
++//  Created by $_AUTHOR_NAME on $_AUTHOR_DATE.
++//  Copyright © $_COPY_YEAR $_ORG_NAME. All rights reserved.
+ //
+
+ #import <UIKit/UIKit.h>
+diff -ruN PRODUCT_NAME/PRODUCT_NAME/AppDelegate.m PRODUCT_NAME.tmp/PRODUCT_NAME/AppDelegate.m
+--- PRODUCT_NAME/PRODUCT_NAME/AppDelegate.m	2016-04-07 19:31:13.000000000 -0700
++++ PRODUCT_NAME.tmp/PRODUCT_NAME/AppDelegate.m	2016-04-07 19:34:41.000000000 -0700
+@@ -1,9 +1,9 @@
+ //
+ //  AppDelegate.m
+-//  PRODUCT_NAME
++//  $_PRODUCT_NAME
+ //
+-//  Created by AUTHOR_NAME on AUTHOR_DATE.
+-//  Copyright © COPY_YEAR ORG_NAME. All rights reserved.
++//  Created by $_AUTHOR_NAME on $_AUTHOR_DATE.
++//  Copyright © $_COPY_YEAR $_ORG_NAME. All rights reserved.
+ //
+
+ #import "AppDelegate.h"
+diff -ruN PRODUCT_NAME/PRODUCT_NAME/Info.plist PRODUCT_NAME.tmp/PRODUCT_NAME/Info.plist
+--- PRODUCT_NAME/PRODUCT_NAME/Info.plist	2016-04-07 19:00:34.000000000 -0700
++++ PRODUCT_NAME.tmp/PRODUCT_NAME/Info.plist	2016-04-07 19:33:41.000000000 -0700
+@@ -11,7 +11,7 @@
+ 	<key>CFBundleInfoDictionaryVersion</key>
+ 	<string>6.0</string>
+ 	<key>CFBundleName</key>
+-	<string>$(PRODUCT_NAME)</string>
++	<string>$($_PRODUCT_NAME)</string>
+ 	<key>CFBundlePackageType</key>
+ 	<string>APPL</string>
+ 	<key>CFBundleShortVersionString</key>
+diff -ruN PRODUCT_NAME/PRODUCT_NAME/ViewController.h PRODUCT_NAME.tmp/PRODUCT_NAME/ViewController.h
+--- PRODUCT_NAME/PRODUCT_NAME/ViewController.h	2016-04-07 19:31:11.000000000 -0700
++++ PRODUCT_NAME.tmp/PRODUCT_NAME/ViewController.h	2016-04-07 19:34:40.000000000 -0700
+@@ -1,9 +1,9 @@
+ //
+ //  ViewController.h
+-//  PRODUCT_NAME
++//  $_PRODUCT_NAME
+ //
+-//  Created by AUTHOR_NAME on AUTHOR_DATE.
+-//  Copyright © COPY_YEAR ORG_NAME. All rights reserved.
++//  Created by $_AUTHOR_NAME on $_AUTHOR_DATE.
++//  Copyright © $_COPY_YEAR $_ORG_NAME. All rights reserved.
+ //
+
+ #import <UIKit/UIKit.h>
+diff -ruN PRODUCT_NAME/PRODUCT_NAME/ViewController.m PRODUCT_NAME.tmp/PRODUCT_NAME/ViewController.m
+--- PRODUCT_NAME/PRODUCT_NAME/ViewController.m	2016-04-07 19:31:10.000000000 -0700
++++ PRODUCT_NAME.tmp/PRODUCT_NAME/ViewController.m	2016-04-07 19:34:40.000000000 -0700
+@@ -1,9 +1,9 @@
+ //
+ //  ViewController.m
+-//  PRODUCT_NAME
++//  $_PRODUCT_NAME
+ //
+-//  Created by AUTHOR_NAME on AUTHOR_DATE.
+-//  Copyright © COPY_YEAR ORG_NAME. All rights reserved.
++//  Created by $_AUTHOR_NAME on $_AUTHOR_DATE.
++//  Copyright © $_COPY_YEAR $_ORG_NAME. All rights reserved.
+ //
+
+ #import "ViewController.h"
+diff -ruN PRODUCT_NAME/PRODUCT_NAME/main.m PRODUCT_NAME.tmp/PRODUCT_NAME/main.m
+--- PRODUCT_NAME/PRODUCT_NAME/main.m	2016-04-07 19:31:12.000000000 -0700
++++ PRODUCT_NAME.tmp/PRODUCT_NAME/main.m	2016-04-07 19:34:41.000000000 -0700
+@@ -1,9 +1,9 @@
+ //
+ //  main.m
+-//  PRODUCT_NAME
++//  $_PRODUCT_NAME
+ //
+-//  Created by AUTHOR_NAME on AUTHOR_DATE.
+-//  Copyright © COPY_YEAR ORG_NAME. All rights reserved.
++//  Created by $_AUTHOR_NAME on $_AUTHOR_DATE.
++//  Copyright © $_COPY_YEAR $_ORG_NAME. All rights reserved.
+ //
+
+ #import <UIKit/UIKit.h>
+diff -ruN PRODUCT_NAME/PRODUCT_NAME.xcodeproj/project.pbxproj PRODUCT_NAME.tmp/PRODUCT_NAME.xcodeproj/project.pbxproj
+--- PRODUCT_NAME/PRODUCT_NAME.xcodeproj/project.pbxproj	2016-04-07 19:00:34.000000000 -0700
++++ PRODUCT_NAME.tmp/PRODUCT_NAME.xcodeproj/project.pbxproj	2016-04-07 19:34:43.000000000 -0700
+@@ -16,7 +16,7 @@
+ /* End PBXBuildFile section */
+
+ /* Begin PBXFileReference section */
+-		B5C451F01CB7484200C265EA /* PRODUCT_NAME.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PRODUCT_NAME.app; sourceTree = BUILT_PRODUCTS_DIR; };
++		B5C451F01CB7484200C265EA /* $_PRODUCT_NAME.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = $_PRODUCT_NAME.app; sourceTree = BUILT_PRODUCTS_DIR; };
+ 		B5C451F41CB7484200C265EA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+ 		B5C451F61CB7484200C265EA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+ 		B5C451F71CB7484200C265EA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+@@ -42,7 +42,7 @@
+ 		B5C451E71CB7484200C265EA = {
+ 			isa = PBXGroup;
+ 			children = (
+-				B5C451F21CB7484200C265EA /* PRODUCT_NAME */,
++				B5C451F21CB7484200C265EA /* $_PRODUCT_NAME */,
+ 				B5C451F11CB7484200C265EA /* Products */,
+ 			);
+ 			sourceTree = "<group>";
+@@ -50,12 +50,12 @@
+ 		B5C451F11CB7484200C265EA /* Products */ = {
+ 			isa = PBXGroup;
+ 			children = (
+-				B5C451F01CB7484200C265EA /* PRODUCT_NAME.app */,
++				B5C451F01CB7484200C265EA /* $_PRODUCT_NAME.app */,
+ 			);
+ 			name = Products;
+ 			sourceTree = "<group>";
+ 		};
+-		B5C451F21CB7484200C265EA /* PRODUCT_NAME */ = {
++		B5C451F21CB7484200C265EA /* $_PRODUCT_NAME */ = {
+ 			isa = PBXGroup;
+ 			children = (
+ 				B5C451F61CB7484200C265EA /* AppDelegate.h */,
+@@ -68,7 +68,7 @@
+ 				B5C452041CB7484200C265EA /* Info.plist */,
+ 				B5C451F31CB7484200C265EA /* Supporting Files */,
+ 			);
+-			path = PRODUCT_NAME;
++			path = $_PRODUCT_NAME;
+ 			sourceTree = "<group>";
+ 		};
+ 		B5C451F31CB7484200C265EA /* Supporting Files */ = {
+@@ -82,9 +82,9 @@
+ /* End PBXGroup section */
+
+ /* Begin PBXNativeTarget section */
+-		B5C451EF1CB7484200C265EA /* PRODUCT_NAME */ = {
++		B5C451EF1CB7484200C265EA /* $_PRODUCT_NAME */ = {
+ 			isa = PBXNativeTarget;
+-			buildConfigurationList = B5C452071CB7484200C265EA /* Build configuration list for PBXNativeTarget "PRODUCT_NAME" */;
++			buildConfigurationList = B5C452071CB7484200C265EA /* Build configuration list for PBXNativeTarget "$_PRODUCT_NAME" */;
+ 			buildPhases = (
+ 				B5C451EC1CB7484200C265EA /* Sources */,
+ 				B5C451ED1CB7484200C265EA /* Frameworks */,
+@@ -94,9 +94,9 @@
+ 			);
+ 			dependencies = (
+ 			);
+-			name = PRODUCT_NAME;
+-			productName = PRODUCT_NAME;
+-			productReference = B5C451F01CB7484200C265EA /* PRODUCT_NAME.app */;
++			name = $_PRODUCT_NAME;
++			productName = $_PRODUCT_NAME;
++			productReference = B5C451F01CB7484200C265EA /* $_PRODUCT_NAME.app */;
+ 			productType = "com.apple.product-type.application";
+ 		};
+ /* End PBXNativeTarget section */
+@@ -106,14 +106,14 @@
+ 			isa = PBXProject;
+ 			attributes = {
+ 				LastUpgradeCheck = 0730;
+-				ORGANIZATIONNAME = ORG_NAME;
++				ORGANIZATIONNAME = $_ORG_NAME;
+ 				TargetAttributes = {
+ 					B5C451EF1CB7484200C265EA = {
+ 						CreatedOnToolsVersion = 7.3;
+ 					};
+ 				};
+ 			};
+-			buildConfigurationList = B5C451EB1CB7484200C265EA /* Build configuration list for PBXProject "PRODUCT_NAME" */;
++			buildConfigurationList = B5C451EB1CB7484200C265EA /* Build configuration list for PBXProject "$_PRODUCT_NAME" */;
+ 			compatibilityVersion = "Xcode 3.2";
+ 			developmentRegion = English;
+ 			hasScannedForEncodings = 0;
+@@ -126,7 +126,7 @@
+ 			projectDirPath = "";
+ 			projectRoot = "";
+ 			targets = (
+-				B5C451EF1CB7484200C265EA /* PRODUCT_NAME */,
++				B5C451EF1CB7484200C265EA /* $_PRODUCT_NAME */,
+ 			);
+ 		};
+ /* End PBXProject section */
+@@ -263,10 +263,10 @@
+ 			isa = XCBuildConfiguration;
+ 			buildSettings = {
+ 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+-				INFOPLIST_FILE = PRODUCT_NAME/Info.plist;
++				INFOPLIST_FILE = $_PRODUCT_NAME/Info.plist;
+ 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+ 				PRODUCT_BUNDLE_IDENTIFIER = "ORG-ID.PRODUCT-NAME";
+-				PRODUCT_NAME = "$(TARGET_NAME)";
++				$_PRODUCT_NAME = "$(TARGET_NAME)";
+ 			};
+ 			name = Debug;
+ 		};
+@@ -274,17 +274,17 @@
+ 			isa = XCBuildConfiguration;
+ 			buildSettings = {
+ 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+-				INFOPLIST_FILE = PRODUCT_NAME/Info.plist;
++				INFOPLIST_FILE = $_PRODUCT_NAME/Info.plist;
+ 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+ 				PRODUCT_BUNDLE_IDENTIFIER = "ORG-ID.PRODUCT-NAME";
+-				PRODUCT_NAME = "$(TARGET_NAME)";
++				$_PRODUCT_NAME = "$(TARGET_NAME)";
+ 			};
+ 			name = Release;
+ 		};
+ /* End XCBuildConfiguration section */
+
+ /* Begin XCConfigurationList section */
+-		B5C451EB1CB7484200C265EA /* Build configuration list for PBXProject "PRODUCT_NAME" */ = {
++		B5C451EB1CB7484200C265EA /* Build configuration list for PBXProject "$_PRODUCT_NAME" */ = {
+ 			isa = XCConfigurationList;
+ 			buildConfigurations = (
+ 				B5C452051CB7484200C265EA /* Debug */,
+@@ -293,7 +293,7 @@
+ 			defaultConfigurationIsVisible = 0;
+ 			defaultConfigurationName = Release;
+ 		};
+-		B5C452071CB7484200C265EA /* Build configuration list for PBXNativeTarget "PRODUCT_NAME" */ = {
++		B5C452071CB7484200C265EA /* Build configuration list for PBXNativeTarget "$_PRODUCT_NAME" */ = {
+ 			isa = XCConfigurationList;
+ 			buildConfigurations = (
+ 				B5C452081CB7484200C265EA /* Debug */,
+diff -ruN PRODUCT_NAME/PRODUCT_NAME.xcodeproj/project.xcworkspace/contents.xcworkspacedata PRODUCT_NAME.tmp/PRODUCT_NAME.xcodeproj/project.xcworkspace/contents.xcworkspacedata
+--- PRODUCT_NAME/PRODUCT_NAME.xcodeproj/project.xcworkspace/contents.xcworkspacedata	2016-04-07 19:00:35.000000000 -0700
++++ PRODUCT_NAME.tmp/PRODUCT_NAME.xcodeproj/project.xcworkspace/contents.xcworkspacedata	2016-04-07 19:33:43.000000000 -0700
+@@ -2,6 +2,6 @@
+ <Workspace
+    version = "1.0">
+    <FileRef
+-      location = "self:PRODUCT_NAME.xcodeproj">
++      location = "self:$_PRODUCT_NAME.xcodeproj">
+    </FileRef>
+ </Workspace>
+diff -ruN PRODUCT_NAME/README.md PRODUCT_NAME.tmp/README.md
+--- PRODUCT_NAME/README.md	2016-04-07 19:07:47.000000000 -0700
++++ PRODUCT_NAME.tmp/README.md	2016-04-07 19:33:40.000000000 -0700
+@@ -10,7 +10,7 @@
+
+ ## Usage
+
+-Open Xcode Project: `open PRODUCT_NAME.xcodeproj/`
++Open Xcode Project: `open $_PRODUCT_NAME.xcodeproj/`
+
+ ## Contributing
+

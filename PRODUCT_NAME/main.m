@@ -2,8 +2,8 @@
 //  main.m
 //  PRODUCT_NAME
 //
-//  Created by Ben on 4/7/16.
-//  Copyright © 2016 ORG_NAME. All rights reserved.
+//  Created by AUTHOR_NAME on AUTHOR_DATE.
+//  Copyright © COPY_YEAR ORG_NAME. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
