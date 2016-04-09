@@ -23,4 +23,5 @@ xcuserdata/
 *.xccheckout
 *.xcscmblueprint
 # ===== End Global/Xcode.gitignore =====
+.DS_Store
 
