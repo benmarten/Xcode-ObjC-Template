@@ -54,6 +54,8 @@ mv "$_PRODUCT_NAME"/ "$PRODUCT_NAME"
 rm ./README.md
 rm ./LICENSE
 rm ./setup.sh
+rm ./.gitignore
+rm -rf ./.git/
 
 echo "Patching done!"
 

@@ -12,7 +12,11 @@ Running the setup.sh script will ask you for your project info and setup the pro
 
 1. Clone this repository: 
 
-  `git clone https://github.com/benmarten/Xcode-ObjC-Template.git`
+  `git clone https://github.com/benmarten/Xcode-ObjC-Template.git MyApp`
+
+2. Change to to cloned directory:
+  
+  `cd MyApp`
 
 2. To setup the specific project parameters, run:
 
