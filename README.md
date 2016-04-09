@@ -6,7 +6,7 @@ This is based on a Xcode project created by Xcode 7.3 (7D175)
 
 Running the setup.sh script will ask you for your project info and setup the project accordingly.
 
-![revolunet logo](http://www.revolunet.com/static/parisjs8/img/logo-revolunet-carre.jpg "revolunet logo")
+![setup.sh example](https://raw.githubusercontent.com/benmarten/Xcode-ObjC-Template/resources/example.png "setup.sh example")
 
 ## Usage
 
